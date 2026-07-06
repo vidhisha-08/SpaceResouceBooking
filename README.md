@@ -29,7 +29,7 @@ To make this possible, we designed a comprehensive database. Let me walk you thr
 ## Contributing
 Contributions are welcome! Please open an issue or send a pull request.
 ## Team
-- Shreya Babar - @s-hreya184
+- Shreya Babar 
 - Srushti Kotgire
 - Vidhisha Kulkarni
 - Gauri Patil
