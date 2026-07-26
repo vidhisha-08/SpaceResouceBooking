@@ -8,7 +8,7 @@ public class DBManager {
     // 1. Database Credentials
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/spacebooking"; // Use your actual database name
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "Vidhisha@08"; 
+    private static final String PASSWORD = "Your_Password_Here"; 
     
     // The driver class name (required for older versions, good practice to include)
     private static final String DRIVER_CLASS = "com.mysql.cj.jdbc.Driver";
