@@ -7,8 +7,8 @@ public class DBManager {
 
     // 1. Database Credentials
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/spacebooking"; // Use your actual database name
-    private static final String USERNAME = "root"; // e.g., "root"
-    private static final String PASSWORD = "Shreya@11"; // e.g., "password123"
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "Vidhisha@08"; 
     
     // The driver class name (required for older versions, good practice to include)
     private static final String DRIVER_CLASS = "com.mysql.cj.jdbc.Driver";
@@ -22,6 +22,7 @@ public class DBManager {
             
             // Establish the connection
             connection = DriverManager.getConnection(JDBC_URL, USERNAME, PASSWORD);
+            System.out.println("Database connected successfully!");
             
             // System.out.println("Database connection established successfully.");
             

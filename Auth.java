@@ -54,7 +54,7 @@ public class Auth {
                 }
             }
         } catch (SQLException e) {
-            System.err.println("Login Database Error: " + e.getMessage());
+            e.printStackTrace();
         } finally {
             DBManager.closeConnection(conn);
         }
@@ -92,11 +92,7 @@ public class Auth {
             }
         } catch (SQLException e) {
             // MySQL error code for duplicate entry (Unique constraint violation)
-            if (e.getErrorCode() == 1062) { 
-                System.out.println("Signup Failed: That email address is already registered.");
-            } else {
-                System.err.println("Signup Database Error: " + e.getMessage());
-            }
+            e.printStackTrace();
             return false;
         } finally {
             DBManager.closeConnection(conn);
